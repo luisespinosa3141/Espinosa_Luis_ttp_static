@@ -1,0 +1,14 @@
+<html>
+<body onload=display_ct();>
+<script>
+fucntion display_ct(){
+var dt = new Date();
+document.getElementById('ct').innerHTML=dt;
+}
+</script>
+<h1> My Name is Luis Espinosa and I love to<br>
+play video games</h1>
+<h1>Todays current date and time is: <span id= 'ct'></span>.</h1>
+</body>
+
+</html>
