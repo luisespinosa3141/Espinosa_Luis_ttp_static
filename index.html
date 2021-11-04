@@ -5,6 +5,11 @@ function display_ct(){
 var dt = new Date();
 document.getElementById('ct').innerHTML=dt;
 }
+var i = 1;
+var interval = setInterval( increment, 1000);
+function increment(){
+    i = i % 360 + 1;
+}
 </script>
 <h1> My Name is Luis Espinosa and I love to<br>
 play video games</h1>
