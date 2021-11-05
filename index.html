@@ -5,15 +5,17 @@ function display_ct(){
 var dt = new Date();
 document.getElementById('ct').innerHTML=dt;
 }
-var i = 1;
-var interval = setInterval( increment, 1000);
-function increment(ct){
-    i = i % 360 + 1;
+var myVar = setInterval(Timer, 1000);
+
+function Timer() {
+  var d = new Date();
+  var t = d.toLocaleTimeString();
+  document.getElementById().innerHTML = t;
 }
 </script>
 <h1> My Name is Luis Espinosa and I love to<br>
 play video games</h1>
-<h1>Todays current date and time is: <span id= 'ct'></span>.</h1>
+<h1>Today's current date and time is: <span id= 'ct'></span>.</h1>
 </body>
 
 </html>
